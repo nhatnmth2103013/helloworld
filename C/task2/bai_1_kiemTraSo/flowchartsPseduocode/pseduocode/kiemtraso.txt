@@ -1,0 +1,14 @@
+	BEGIN
+	INPUT a;
+	DISPLAY ("Kiem tra mot so la nguyen duong, nguyen am hay 0")
+	DISPLAY ("Nhap so can kiem tra: ")
+	IF a<0
+	DISPLAY ("a la so nguyen am")
+	END IF
+	IF a<0 
+	DISPLAY ("a la so nguyen am")
+	END IF
+	IF a=0
+	DISPLAY ("Day la so 0")
+	END IF
+	END

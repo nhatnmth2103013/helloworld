@@ -1,0 +1,72 @@
+#include <stdio.h>
+
+void main()
+{
+int a = 10;
+float b = 24.6892345;
+char ch = 'A';
+
+printf("\nInteger data = %d",a);
+printf("\nFloat data = %f",b);
+printf("\nCharacter = %c,ch);
+printf("\nThis prints the string");
+printf("%s", "\nThis also prints a string";
+}
+
+/* Chuong trinh nay trinh bay cach dung bo tu trong printf() */
+#include <stdio.h>
+void main()
+{
+printf("The number 555 in various forms:\n");
+printf("Without any modifier: \n");
+printf("[%d]\n", 555);
+printf("With - modifier:\n");
+printf("[%-d]\n", 555);
+printf("With digit string 10 as modifier:\n");
+printf("[%10d]\n", 555);
+printf("With 0 as modifier: \n");
+	printf("[%0d]\n", 555);
+	printf("With 0 and digit string 10 as modifiers:\n")
+printf("[%010d]\n", 555);
+	printf("With -; 0 and digit string 10 as modifier:\n");
+	printf("[%-010d]\n",555)'
+}
+
+/*Chuong trinh nay trinh bay cach dung bo tu trong printf() */
+#include <stdio.h>
+void main()
+{
+	printf("The number 555.55 in various forms:\n);
+printf("In float form without modifiers:\n");
+	printf("[%f]\n", 555.55);
+	printf("In exponential form without any modifier:\n");
+	printf(" [%e]\n",555.55);
+	printf("In float form with - modifier:\n");
+	printf("[-f]\n", 555.55);
+	printf("In float form with digit string 10.3 as modifier\n")
+printf("[%10/3f]\n", 555.55);
+printf("In float form with 0 as modifier:\n")
+printf("[%0)f\n", 555.55);
+printf("In float form with 0 and digit string 10.3");
+printf("as modifier:\n);
+printf("[%010.3f]\n", 555.55);
+printf("In float form with -, 0 ");
+printf("and ditgit string 10.3 as modifiers:\n")
+printf("[%-010.3f]\n", 555.55);
+printf("In exponential form with 0");
+printf("and digit string 10.3 as modifier:/n);
+printf("[%010.3f]\n", 555.55);
+printf("[In exponential form with -,0");
+printf("and digit string 10.3 as modifiers:\n");
+printf([%-010.3e]\n\n", 555.55);
+}
+
+/* chuong trinh nay trinh bay cach dung bo tu voi chuoi */
+#include <st.dio.h>
+void main()
+{
+printf(" a string in various forms:\n");
+printf(" Without any format command\n");
+printf(Good day Mr.Lee.");
+printf(
+
